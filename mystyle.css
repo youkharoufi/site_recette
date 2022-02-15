@@ -1,0 +1,158 @@
+body{
+    background-color:#8BA1BB;
+    font-family:Arial;
+}
+
+p.categorie{
+    background-color:black;
+    color:white;
+    display:inline-block;
+    padding:8px 18px;
+    margin-top:-30px;
+    margin-bottom:30px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+p.description{
+    text-align:center;
+    max-width:400px;
+    display:inline-block;
+    font-size:18px;
+}
+
+div.contenu{
+    background-color:white;
+    margin:60px 10% 80px 10%;
+    padding:0px 30px 30px 30px;
+    min-width:350px;
+    box-shadow:0px 0px 8px 8px rgba(0,0,0,0.1);
+    overflow:visible;
+}
+
+h1{
+    text-align:center;
+}
+
+div.description{
+    text-align:center;
+}
+
+div.center{
+    text-align:center;
+
+}
+
+img.center{
+    width:100%;
+}
+
+div.categorie{
+    margin-bottom:0;
+    margin-top:0;
+}
+
+div.barre{
+    width:200px;
+    height:1px;
+    background-color:black;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.info{
+    position:relative;
+}
+
+table.info{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    color:white;
+    background-color:#6C829DC0;
+    height:80px
+}
+
+table.info td{
+    text-align:center;
+    font-size:16px;
+    vertical-align:top;
+}
+
+table.info th{
+    font-size:16px;
+    vertical-align:bottom;
+    padding-bottom:8px
+}
+
+img.info{
+    background-color:cadetblue;
+}
+
+div.colonne1{
+    margin-top:20px;
+    width:50%;
+    display:inline-block;
+}
+
+div.colonne2{
+    margin-top:20px;
+    float:right;
+    width:50%;
+}
+
+div.colonne h2{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:15px;
+    border-bottom:5px solid #6C829D;
+    margin:10%;
+    padding-bottom:5px;
+}
+
+div.liste p{
+    border:1px solid lightgrey;
+    text-align:center;
+    padding:10px 0;
+    margin-top: 8px;
+    margin-bottom:8px
+
+}
+
+div.liste p:hover{
+    border:1px solid blue;
+    text-align:center;
+}
+
+
+table.preparation p.numero{
+    background-color:#6C829D;
+    color:white;
+    width:25px;
+    height:25px;
+    text-align:center;
+    font-size:14px;
+    font-weight:bold;
+    padding-top:4px;
+    box-sizing:border-box;
+    border-radius:50%;
+    margin:0;
+}
+
+table.preparation td{
+    vertical-align:top;
+}
+
+table.preparation td{
+    font-size:14px;
+    padding-left:10px;
+    padding-bottom:10px;
+}
+
+table.preparation tr{
+    height:40px;
+}
+
+div.oleen{
+    overflow:auto;
+}
